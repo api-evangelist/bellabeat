@@ -1,7 +1,28 @@
 aid: bellabeat
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bellabeat.png
 name: Bellabeat
-description: Bellabeat is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bellabeat is a femtech and women's wellness technology company founded in 2014
+  by Urska Srsen and Sandro Mur, headquartered in San Francisco, California. It
+  designs health-tracking wearables and connected devices aimed at women,
+  including the Leaf and Ivy wellness jewelry trackers, the Time hybrid
+  smartwatch, and the Spring smart water bottle, paired with the Bellabeat mobile
+  app that tracks activity, sleep, stress, meditation, menstrual cycle, and
+  overall wellness. Bellabeat operates as a direct-to-consumer wellness brand;
+  it does not currently publish a public developer API, so this profile captures
+  company identity and network provenance rather than API artifacts. Added to the
+  API Evangelist network as a Y Combinator portfolio lead and enriched here.
 url: https://raw.githubusercontent.com/api-evangelist/bellabeat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Femtech
+- Wellness
+- Wearables
+- Health
+- Women's Health
+- Consumer Hardware
+- Fitness Tracking
 apis: []
+common:
+- type: Website
+  url: https://bellabeat.com
+- type: DomainSecurity
+  url: security/bellabeat-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
